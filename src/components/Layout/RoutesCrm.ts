@@ -20,8 +20,8 @@ import {
   Route,
   Router,
   Cable,
-  Bot,
-  BotMessageSquare,
+  // Bot,
+  // BotMessageSquare,
   Landmark,
   NotebookPen,
   FileType,
@@ -96,18 +96,18 @@ export const routesCrm_SuperAdmin = [
     href: "/crm-sectores",
   },
 
-  {
-    icon: BotMessageSquare,
-    label: "Bot y Mensajería",
-    submenu: [
-      { icon: Bot, label: "Bot", href: "/crm/bot" },
-      {
-        icon: BotMessageSquare,
-        label: "Mensajería Whatsapp",
-        href: "/crm/bot/whatsapp?page=1",
-      },
-    ],
-  },
+  // {
+  //   icon: BotMessageSquare,
+  //   label: "Bot y Mensajería",
+  //   submenu: [
+  //     { icon: Bot, label: "Bot", href: "/crm/bot" },
+  //     {
+  //       icon: BotMessageSquare,
+  //       label: "Mensajería Whatsapp",
+  //       href: "/crm/bot/whatsapp?page=1",
+  //     },
+  //   ],
+  // },
 
   {
     icon: FileText,
@@ -255,18 +255,18 @@ export const routesCrm_Admin = [
     href: "/crm-sectores",
   },
 
-  {
-    icon: BotMessageSquare,
-    label: "Bot y Mensajería",
-    submenu: [
-      { icon: Bot, label: "Bot", href: "/crm/bot" },
-      {
-        icon: BotMessageSquare,
-        label: "Mensajería Whatsapp",
-        href: "/crm/bot/whatsapp?page=1",
-      },
-    ],
-  },
+  // {
+  //   icon: BotMessageSquare,
+  //   label: "Bot y Mensajería",
+  //   submenu: [
+  //     { icon: Bot, label: "Bot", href: "/crm/bot" },
+  //     {
+  //       icon: BotMessageSquare,
+  //       label: "Mensajería Whatsapp",
+  //       href: "/crm/bot/whatsapp?page=1",
+  //     },
+  //   ],
+  // },
 
   {
     icon: FileText,
