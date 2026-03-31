@@ -5,7 +5,7 @@ import { toast } from "sonner";
 import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
 import { useParams } from "react-router-dom";
-import logoCrm from "../../assets/logoNovaSinFondo.png";
+import logoCrm from "../../assets/LOGOPLACE.png";
 import dayjs from "dayjs";
 import "dayjs/locale/es";
 import utc from "dayjs/plugin/utc";

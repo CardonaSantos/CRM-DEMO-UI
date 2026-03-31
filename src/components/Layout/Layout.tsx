@@ -19,7 +19,7 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 // Hooks & Stores
 
 // Assets & Tipos
-import logo from "@/assets/LogoCrmPng.png"; // Ajusta tu import
+import logo from "@/assets/LOGOPLACE.png"; // Ajusta tu import
 import { useStoreCrm } from "@/Crm/ZustandCrm/ZustandCrmContext";
 import { useInvalidateQk } from "@/Crm/CrmHooks/hooks/useInvalidateQk/useInvalidateQk";
 import { useGetNotification } from "@/Crm/CrmHooks/hooks/use-notifications/useNotification";
